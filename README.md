@@ -53,6 +53,16 @@ for i in range( 15 ):
     output = tf.concat([ output, temp ], axis=0)
 ```
 
+## Files and Directory ##
+
+| File Name | Description |
+--- | --- |
+| sample.py | sample codes |
+| Figure_15.png | result |
+| Figure_19.png | sample data 1 |
+| Figure_25.png | sample data 2 |
+| README.md | readme file |
+
 ## Results ##
 
 ![Closed Loop Forecasting](https://github.com/jkaewprateep/Closed_Loop_Forecasting/blob/main/Figure_15.png "Closed Loop Forecasting")
