@@ -1,7 +1,9 @@
 # Closed_Loop_Forecasting
-For study Closed Loop Forecasting in LSTM layer
+For study Closed Loop Forecasting in LSTM layer, objectives to predict next output from the input series in scopes and ranges of the training networks and observing change of prediction values from ravirying round loop number and vary data.
 
 ## LSTM Layer ##
+
+Simple LSTM layer, with weights initail and bias for training and call() for prediction and training.
 
 ```
 class MyLSTMLayer( tf.keras.layers.LSTM ):
@@ -28,6 +30,8 @@ class MyLSTMLayer( tf.keras.layers.LSTM ):
 ```
 
 ## Training and Prediction ##
+
+Simply input of 5 different cell, 480 each to LSTM layer with 20 cells and call it once with random input for prediction results.
 
 ```
 for i in range( 15 ):
@@ -70,5 +74,7 @@ for i in range( 15 ):
 ![Sample 2](https://github.com/jkaewprateep/Closed_Loop_Forecasting/blob/main/Figure_25.png "Sample 2")
 
 ## References ##
+
+When read I found examples from this sites, I keep reading to develop my study and games for feedbacks system, forecasting series is a simple task but to have accurate results need some practice see my example from experiences of working with Flappy Birds games and other games applied.
 
 1. https://www.mathworks.com/help/deeplearning/ug/time-series-forecasting-using-deep-learning.html
