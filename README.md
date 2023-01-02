@@ -77,4 +77,6 @@ for i in range( 15 ):
 
 When read I found examples from this sites, I keep reading to develop my study and games for feedbacks system, forecasting series is a simple task but to have accurate results need some practice see my example from experiences of working with Flappy Birds games and other games applied.
 
+* That is jokes, random node has a seed.
+
 1. https://www.mathworks.com/help/deeplearning/ug/time-series-forecasting-using-deep-learning.html
